@@ -1,0 +1,11 @@
+Enhance text editors with a smooth, Microsoft Word-style cursor caret animation.
+
+SmoothType enhances text editors by adding a smooth, Microsoft Word-style cursor caret animation, making your typing experience more fluid and visually pleasing.
+
+Permissions:
+
+The storage permission is used to save and retrieve user settings for cursor transition delay and animation type. This allows the extension to apply personalized animation settings across different sessions.
+
+The webNavigation permission is required to monitor changes in the web page's URL and ensure that the extension’s features are applied only on supported websites. This helps in managing the extension’s functionality as users navigate between different pages.
+
+The activeTab permission enables the extension to interact with the currently active tab, allowing it to apply cursor animation settings and changes directly to the text editor in use. This ensures that the extension's features are applied in real-time to the user's active document or spreadsheet.

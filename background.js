@@ -55,4 +55,10 @@ chrome.runtime.onInstalled.addListener(() => {
   chrome.tabs.onActivated.addListener((activeInfo) => {
     updateIconAndStorage(activeInfo.tabId);
   });
+
+  chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+    if (changeInfo.status === 'complete') {
+      updateIconAndStorage(tabId);
+    }
+  });
   
