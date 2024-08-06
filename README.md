@@ -17,7 +17,7 @@
 
 ## Installation steps
 If you want to install via the Chrome Webstore (recommended)
-1. Navigate to <a href="https://chromewebstore.google.com/detail/ebpefnjjlnnagcmlmcnpjeaebmojpgni/preview?hl=en&authuser=0">this link.</a>
+1. Navigate to <a href="https://chromewebstore.google.com/detail/smoothtype/ebpefnjjlnnagcmlmcnpjeaebmojpgni?hl=en">this link.</a>
 2. Click "Add to Chrome"
 
 If you want to install this extension unpacked:
